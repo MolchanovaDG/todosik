@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3837c66-9cee-4d0a-b350-66680be6ca57" name="Default Changelist" comment="project">
-      <change afterPath="$PROJECT_DIR$/src/context/firebase/FirebaseState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/firebase/firebaseContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/context/firebase/firebaseReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/alert/AlertState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/alert/AlertState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/alert/alertContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/alert/alertContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/alert/alertReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/alert/alertReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/context" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\todosik\src\components" />
       <recent name="C:\projects\todosik\src\context" />
     </key>
   </component>
@@ -71,7 +77,7 @@
       <updated>1607919740666</updated>
       <workItem from="1607919751895" duration="12734000" />
       <workItem from="1607934329621" duration="338000" />
-      <workItem from="1607936600926" duration="1711000" />
+      <workItem from="1607936600926" duration="3814000" />
     </task>
     <task id="LOCAL-00001" summary="fff">
       <created>1607923933334</created>
@@ -115,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607934630685</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="project">
+      <created>1607939664537</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607939664537</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
