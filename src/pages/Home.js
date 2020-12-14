@@ -10,7 +10,7 @@ export const Home = () =>{
         <Fragment>
             <Form/>
             <hr/>
-            <Notes/>
+            <Notes notes={notes}/>
 
         </Fragment>
     )
