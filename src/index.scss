@@ -57,3 +57,32 @@ code {
     transform: translateX(-200px);
   }
 }
+
+.nav__auth {
+  margin-left: auto;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.home__login {
+  margin-left: 15px;
+}
+
+.note_done {
+  text-decoration: line-through;
+  opacity: .8;
+  background-color: rgb(218, 218, 218);
+}
+
+.send-note {
+  position: relative;
+}
+
+.send-note-button {
+  position: absolute;
+  right: 0;
+  top:50%;
+  transform: translateY(-50%);
+}

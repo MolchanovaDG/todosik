@@ -1,6 +1,7 @@
 import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import {Home} from './pages/Home'
+import {Auth} from './pages/Auth'
 import {About} from './pages/About'
 import {Navbar} from './components/Navbar'
 import {Alert} from './components/Alert'
@@ -9,8 +10,8 @@ import {FirebaseState} from './context/firebase/FirebaseState'
 
 function App() {
     return (
-        <FirebaseState>
-            <AlertState>
+        <AlertState>
+            <FirebaseState>
                 <BrowserRouter>
                     <Navbar/>
                     <div className="container pt-4">
@@ -18,11 +19,12 @@ function App() {
                         <Switch>
                             <Route path={'/'} exact component={Home}/>
                             <Route path={'/about'} component={About}/>
+                            <Route path={'/auth'} component={Auth}/>
                         </Switch>
                     </div>
                 </BrowserRouter>
-            </AlertState>
-        </FirebaseState>
+            </FirebaseState>
+        </AlertState>
     );
 }
 
